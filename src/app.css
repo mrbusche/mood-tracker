@@ -25,6 +25,7 @@
 /* Custom styles for the Inter font */
 body {
   font-family: 'Inter', sans-serif;
+  background-color: #BFE4FF;
 }
 
 input[type='range']::-webkit-slider-thumb {
