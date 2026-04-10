@@ -7,7 +7,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "prettier --check .",
-    "prettier:fix": "prettier --write ."
+    "prettier:fix": "prettier --write .",
+    "biome:fix": "npx @biomejs/biome check --write ."
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "7.0.1",
