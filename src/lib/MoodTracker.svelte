@@ -35,7 +35,7 @@
   };
 
   const exportJSON = () => {
-    const dataStr = 'data:text/json;charset=utf-8,' + encodeURIComponent(JSON.stringify(moodData, null, 2));
+    const dataStr = `data:text/json;charset=utf-8,${encodeURIComponent(JSON.stringify(moodData, null, 2))}`;
     const downloadAnchorNode = document.createElement('a');
     downloadAnchorNode.setAttribute('href', dataStr);
     downloadAnchorNode.setAttribute('download', 'mood_history.json');
@@ -86,12 +86,14 @@
     <div class="flex gap-4">
       <button
         onclick={saveEntry}
+        type="button"
         class="flex-[2] bg-gray-900 text-white py-5 rounded-2xl font-black text-xl uppercase tracking-wider hover:scale-[1.02] active:scale-95 transition-all shadow-xl"
       >
         Log Entry
       </button>
       <button
         onclick={exportJSON}
+        type="button"
         class="flex-1 border-2 border-gray-200 rounded-2xl font-bold text-gray-500 hover:bg-gray-50 transition-all uppercase text-xs"
       >
         Export
