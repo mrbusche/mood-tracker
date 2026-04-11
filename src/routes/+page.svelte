@@ -1,5 +1,5 @@
 <script>
-  import MoodTracker from '$lib/moodTracker.svelte';
+  import MoodTracker from '$lib/MoodTracker.svelte';
   import '../app.css';
 </script>
 

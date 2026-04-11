@@ -23,15 +23,12 @@
     "prettier:fix": "oxfmt"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.11",
     "@sveltejs/adapter-auto": "7.0.1",
     "@sveltejs/kit": "2.57.1",
     "@sveltejs/vite-plugin-svelte": "7.0.0",
     "@tailwindcss/vite": "4.2.2",
     "oxfmt": "0.44.0",
     "oxlint": "1.59.0",
-    "prettier": "3.8.2",
-    "prettier-plugin-svelte": "3.5.1",
     "svelte": "5.55.3",
     "svelte-check": "4.4.6",
     "tailwindcss": "4.2.2",
