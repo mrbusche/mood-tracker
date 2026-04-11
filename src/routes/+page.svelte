@@ -1,6 +1,6 @@
 <script>
-  import MoodTracker from '$lib/MoodTracker.svelte';
-  import '../app.css'; // Import the global CSS file here
+  import MoodTracker from '$lib/moodTracker.svelte';
+  import '../app.css';
 </script>
 
 <MoodTracker />
