@@ -15,6 +15,9 @@
     "url": "git+https://github.com/mrbusche/mood-tracker.git"
   },
   "type": "module",
+  "imports": {
+    "#lib/*": "./src/lib/*"
+  },
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
